@@ -1,6 +1,6 @@
 import React from "react";
 
-const LeadershipSection = () => {
+const Register = () => {
   const team = [
     {
       name: "PARENT",
@@ -21,15 +21,16 @@ const LeadershipSection = () => {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">CHOOSE YOUR CATEGORY</h2>
         <p className="text-gray-600 mb-24">
-          Tailus prides itself not only on award-winning technology, but also on
-          the talent of its people – some of the brightest minds and most
-          experienced executives in business.
+        IRIS, our cutting-edge web app, empowers you to seamlessly select your preferred category,
+         ensuring a tailored and user-friendly experience for everyone. Whether you're exploring for
+          specific interests or browsing for general content, IRIS simplifies the process, making it 
+          accessible and convenient for users .
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {team.map((member, index) => (
             <div
               key={index}
-              className="bg-white rounded-full hover:scale-105 transition-all shadow-lg p-6 text-center hover:shadow-lime-600"
+              className="bg-white rounded-full hover:scale-105 transition-all shadow-lg p-6 text-center hover:shadow-lime-600 mb-4"
             >
               <img
                 src={member.img}
@@ -46,4 +47,4 @@ const LeadershipSection = () => {
   );
 };
 
-export default LeadershipSection;
+export default Register;
