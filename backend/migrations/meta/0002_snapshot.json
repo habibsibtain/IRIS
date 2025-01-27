@@ -1,0 +1,83 @@
+{
+  "id": "dc5869ab-ebce-4c73-9ef9-0a858a0d593e",
+  "prevId": "402297c1-b456-48fd-a22e-5779b48684b2",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.student": {
+      "name": "student",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "Student_Name": {
+          "name": "Student_Name",
+          "type": "varchar(25)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Email": {
+          "name": "Email",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Contact_Number": {
+          "name": "Contact_Number",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "DOB": {
+          "name": "DOB",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "School": {
+          "name": "School",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Class": {
+          "name": "Class",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "student_Email_unique": {
+          "name": "student_Email_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "Email"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
