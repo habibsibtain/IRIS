@@ -6,17 +6,6 @@ function Hero() {
     <div>
     <section className="pt-8 lg:pt-32 bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-14 lg:px-8 relative text-center">
-        {/* <div className="border border-indigo-600 p-1 w-60 mx-auto rounded-full flex items-center justify-between mb-4">
-            <span className="font-inter text-xs font-medium text-gray-900 ml-3"
-            >Explore how to use for brands.</span>
-            <a href="javascript:;" className="w-8 h-8 rounded-full flex justify-center items-center bg-indigo-600">
-                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
-                        stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-            </a>
-        </div> */}
         <h1
             className="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl leading-[50px]">
             Judge your Finances with our new AI app
@@ -43,7 +32,6 @@ function Hero() {
         </div>
     </div>
 </section>
-      
     </div>
     </>
   )
