@@ -7,4 +7,4 @@ const router = express.Router();
 router.post('/', post_Question);
 router.post('/register', register_student);
 
-export default router; 
+export default router;   

@@ -1,6 +1,6 @@
 import { db } from '../lib/db.js';
-import { emotionalIntelligenceTable } from '../models/lifeskill/emotionalIntelligenceQNA.js';
-import { studentTable } from '../models/student/student.js';
+import { emotionalIntelligenceTable } from '../models/lifeskill/emotionalIntelligence/schema.js';
+import { studentTable } from '../models/student/schema.js';
 
 export const post_Question = async (req, res) => { 
   try {
